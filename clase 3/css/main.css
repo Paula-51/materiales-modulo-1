@@ -1,0 +1,39 @@
+:root{
+    --color-principal: #87cefa;
+}
+
+section {
+    background-color: bisque;
+}
+
+* {
+    box-sizing: border-box;
+}
+section{
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.caja1{
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding: 15px;
+    width: 400px;
+}
+
+.caja2{
+    background-color: var(--color-principal);
+    border: 1px solid black;
+    padding: 15px;
+    width: 400px;
+
+}
+
+.caja3{
+    background-color: lightpink;
+    border: 1px solid black;
+    padding: 15px;
+    width: 400px;
+
+}
